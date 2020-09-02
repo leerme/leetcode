@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34D75D8024FFA04700670505 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D7F24FFA04700670505 /* main.swift */; };
+		34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D8724FFA2E700670505 /* Solution_198.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		34D75D7C24FFA04700670505 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D75D7F24FFA04700670505 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		34D75D8724FFA2E700670505 /* Solution_198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_198.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,17 @@
 			isa = PBXGroup;
 			children = (
 				34D75D7F24FFA04700670505 /* main.swift */,
+				34D75D8624FFA2AE00670505 /* 198_打家劫舍 */,
 			);
 			path = leetcode;
+			sourceTree = "<group>";
+		};
+		34D75D8624FFA2AE00670505 /* 198_打家劫舍 */ = {
+			isa = PBXGroup;
+			children = (
+				34D75D8724FFA2E700670505 /* Solution_198.swift */,
+			);
+			path = "198_打家劫舍";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */,
 				34D75D8024FFA04700670505 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

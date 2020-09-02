@@ -9,4 +9,5 @@
 import Foundation
 
 print("Hello, World!")
-
+let i = Solution_198.init().rob([1,2,3,1]);
+NSLog("%d", i);
