@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485BC952500E1A9001FE568 /* Solution_3.swift */; };
 		34D75D8024FFA04700670505 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D7F24FFA04700670505 /* main.swift */; };
 		34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D75D8724FFA2E700670505 /* Solution_198.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3485BC952500E1A9001FE568 /* Solution_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_3.swift; sourceTree = "<group>"; };
 		34D75D7C24FFA04700670505 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D75D7F24FFA04700670505 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34D75D8724FFA2E700670505 /* Solution_198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_198.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3485BC942500E141001FE568 /* 0003_无重复字符的最长子串 */ = {
+			isa = PBXGroup;
+			children = (
+				3485BC952500E1A9001FE568 /* Solution_3.swift */,
+			);
+			path = "0003_无重复字符的最长子串";
+			sourceTree = "<group>";
+		};
 		34D75D7324FFA04700670505 = {
 			isa = PBXGroup;
 			children = (
@@ -60,17 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				34D75D7F24FFA04700670505 /* main.swift */,
-				34D75D8624FFA2AE00670505 /* 198_打家劫舍 */,
+				3485BC942500E141001FE568 /* 0003_无重复字符的最长子串 */,
+				34D75D8624FFA2AE00670505 /* 0198_打家劫舍 */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
 		};
-		34D75D8624FFA2AE00670505 /* 198_打家劫舍 */ = {
+		34D75D8624FFA2AE00670505 /* 0198_打家劫舍 */ = {
 			isa = PBXGroup;
 			children = (
 				34D75D8724FFA2E700670505 /* Solution_198.swift */,
 			);
-			path = "198_打家劫舍";
+			path = "0198_打家劫舍";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			files = (
 				34D75D8824FFA2E700670505 /* Solution_198.swift in Sources */,
 				34D75D8024FFA04700670505 /* main.swift in Sources */,
+				3485BC962500E1A9001FE568 /* Solution_3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
